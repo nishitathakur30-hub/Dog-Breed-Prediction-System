@@ -1,0 +1,32 @@
+# Model & data files (large files - don't upload to GitHub)
+*.h5
+*.pkl
+*.npy
+raw_data/
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Generated outputs
+training_history.png
+prediction_result.png
+
+# IDE
+.vscode/
+.idea/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
